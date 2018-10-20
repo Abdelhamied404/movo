@@ -1,0 +1,152 @@
+*{
+    transition: all ease-in-out 200ms;
+}
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width:100vw;
+    height:100vh;
+}
+.page{
+    background: url("../pics/bg.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+.title{
+    font-size: 174px;
+    font-weight: bold;
+    background: linear-gradient(#fff 50%, #676767);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 77px;
+    letter-spacing: 10px;
+    user-select: none;
+}
+.desc p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: -25px;
+}
+.info-container{
+    width: 86%;
+    background: #0808089c;
+    margin: 0px 7%;
+    margin-top: 40px;
+    overflow: auto;
+}
+.socials-container{
+    overflow: hidden;
+}
+.socials{
+    color: white;
+    float: right;
+    margin-top: -5px;
+    margin-right: 5px;
+    cursor: default;
+    user-select: none;
+}
+.socials p{
+    margin: 10px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: text;
+}
+.socials p:hover{
+    color: white;
+}
+.socials *{
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.socials *:hover{
+    color: #00c698;
+}
+.opening-soon{
+    font-size: 74px;
+    font-weight: bold;
+    background: linear-gradient(#00c698 24%, #00b3dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    user-select: none;
+
+}
+.date p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.about-me{
+    color: white;
+    margin-left: 62px;
+    float: left;
+}
+.about-me img{
+    width: 90px;
+    margin-top: -15px;
+    margin-left: -5px;
+    display: block;
+}
+.bold{
+    font-weight: bold;
+}
+.light{
+    font-weight: lighter;
+}
+.about-website{
+    float: right;
+    margin-top: 100px;
+    margin-right: 62px;
+
+}
+.about-website p{
+    color: gainsboro;
+}
+@media only screen and (max-width: 768px) {
+
+    .socials{
+        float: none;
+        text-align: center;
+    }
+    .title{
+        font-size: 87px;
+    }
+    .desc p{
+        font-size: 14px;
+    }
+    .socials p{
+        display: none;
+    }
+    .opening-soon{
+        font-size: 48px;
+    }
+    .about-me{
+        display: none;
+    }
+    .about-website{
+        text-align: center;
+        margin-right: 0;
+        float: none;
+    }
+
+}
